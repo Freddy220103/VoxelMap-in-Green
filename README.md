@@ -1,13 +1,10 @@
-# VoxelMapPlus
+# VoxelMapPlus 
 
-## Voxelmap++: Mergeable Voxel Mapping Method for Online LiDAR(-inertial) Odometry
+## Voxelmap++: Mergeable Voxel Mapping Method for Online LiDAR(-inertial) Odometry in 
 ## Introduction
 
-**VoxelMapPlus** is an expension with some new features about VoxelMap (https://github.com/hku-mars/VoxelMap) 
-1. Incrementally 3DOF plane fitting and update method based on least squares estimation
-2. Plane merging method based on union-find which consider the coplanar relationship between voxel
-3. Computationally efficient, low memory usage
-4. Adapt different kinds of LiDARs (multi-spinning LiDARs and non-conventional solid-state LiDARs)
+We use **VoxelMapPlus** which is an expension with some new features about VoxelMap (https://github.com/hku-mars/VoxelMap) 
+
 
 <div align="center">
     <img src="pics/Voxelmap++.png" width = 100% >
