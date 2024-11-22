@@ -1,6 +1,10 @@
 # VoxelMapPlus 
 
-## Voxelmap++: Mergeable Voxel Mapping Method for Online LiDAR(-inertial) Odometry in 
+## Voxelmap++: Mergeable Voxel Mapping Method for Online LiDAR(-inertial) Odometry in _____
+### Original VoxelMap++ Developers:
+[Yuan You 游远](https://github.com/SunnysTaste)， Yifei Yuan 袁翼飞
+
+
 ## Introduction
 
 We use **VoxelMapPlus** which is an expension with some new features about VoxelMap (https://github.com/hku-mars/VoxelMap) 
@@ -15,22 +19,19 @@ We use **VoxelMapPlus** which is an expension with some new features about Voxel
     <font color=#a0a0a0 size=2>The PointCloud Map about Liren Building</font>
 </div>
 
-### Developers:
-[Yuan You 游远](https://github.com/SunnysTaste)， Yifei Yuan 袁翼飞
 
-### Related video
-Our accompanying videos are now available on **Bilibili**.
+### VoxelMap++ in --- demonstration:
+Videos are available in youtube:
 <div align="center">
     <a href="https://www.bilibili.com/video/BV16h4y1r7Cm/" target="_blank">
     <img src="pics/video_cover.png" width=100% />
 </div>
 
 
-### Related paper
+### Project Paper
 Related paper available on **arxiv**:  
-1. [Voxelmap++: Mergeable Voxel Mapping Method for Online LiDAR(-inertial) Odometry](https://arxiv.org/pdf/2308.02799.pdf)
-2. [Efficient and Probabilistic Adaptive Voxel Mapping for Accurate Online LiDAR Odometry](https://arxiv.org/abs/2109.07082)
-3. [FAST-LIO2: Fast Direct LiDAR-inertial Odometry](https://arxiv.org/abs/2107.06829)
+1. [Voxelmap++ in open -----)](https://arxiv.org/pdf/2308.02799.pdf)
+
 
 ## 1. Prerequisites
 ### 1.1. **PCL && Eigen**
@@ -41,6 +42,10 @@ Eigen>= 3.3.4, Follow [Eigen Installation](http://eigen.tuxfamily.org/index.php?
 
 ### 1.2. **livox_ros_driver**
 Follow [livox_ros_driver Installation](https://github.com/Livox-SDK/livox_ros_driver).
+
+### 1.3. **VLP-16 **
+Follow [VLP16 LiDAR Installation](http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16).
+
 
 ## 2. Build
 Clone the repository and catkin_make:
@@ -54,7 +59,7 @@ Clone the repository and catkin_make:
 - Remember to source the livox_ros_driver before build (follow 1.2 **livox_ros_driver**)
 
 ## 3. Run on Dataset
-### 3.1 Run on Our LivoxHap Odometry dataset
+### 3.1 Run on the LivoxHap Odometry dataset
 Step A: Download Datasets
 链接: https://pan.baidu.com/s/1-y3x7tbPbyr3LlFnH-FkWw?pwd=ICSP 提取码: ICSP 
 
