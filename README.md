@@ -53,6 +53,11 @@ Follow [SBG-ROS Installation](https://github.com/Hector387615/sbg_ros_driver_ell
 ### 1.5. **Ntrip-CLient**
 Follow [Ntrip-CLient Installation](https://github.com/Hector387615/ntrip_client_sbg/blob/ros/README.md).
 
+Remember to record your rosbag:
+```
+    rosbag record -O name.bag /name_of_topic
+```
+
 
 ## 2. Build
 Clone the repository and catkin_make:
@@ -84,4 +89,5 @@ Step C: Run below
     source devel/setup.bash
     roslaunch voxel_map_plus mapping_velodyne.launch
 ```
-Step D: Play rosbag.
+
+Step D: Run the LiDAR and IMU drivers (If real time) or play rosbag.
