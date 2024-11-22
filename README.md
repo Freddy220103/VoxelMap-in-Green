@@ -1,4 +1,4 @@
-# VoxelMapPlus 
+# VoxelMap++
 
 ## Voxelmap++: Mergeable Voxel Mapping Method for Online LiDAR(-inertial) Odometry in _____
 ### Project Developers:
@@ -9,7 +9,7 @@
 
 ## Introduction
 
-We use **VoxelMapPlus** which is an expension with some new features about VoxelMap (https://github.com/hku-mars/VoxelMap) 
+We use **VoxelMap++** which is an expension with some new features about VoxelMap (https://github.com/hku-mars/VoxelMap) 
 
 
 <div align="center">
@@ -47,6 +47,12 @@ Follow [livox_ros_driver Installation](https://github.com/Livox-SDK/livox_ros_dr
 ### 1.3. **VLP-16 **
 Follow [VLP16 LiDAR Installation](http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16).
 
+### 1.4. **SBG-ROS Drivers **
+Follow [SBG-ROS Installation](https://github.com/Hector387615/sbg_ros_driver_ellipse/blob/master/README.md).
+
+### 1.5. **Ntrip-CLient**
+Follow [Ntrip-CLient Installation](https://github.com/Hector387615/ntrip_client_sbg/blob/ros/README.md).
+
 
 ## 2. Build
 Clone the repository and catkin_make:
@@ -71,11 +77,11 @@ Edit ``` config/velodyne.yaml ``` to set the below parameters:
 3. If you want to show the voxel map, set ```pub_voxel_map``` to ```true```
 4. If you want to show the accumulated point cloud map, set ```pub_point_cloud``` to ```true```
 
+
 Step C: Run below
 ```
     cd ~/$VOXEL_MAP_PLUS_ROS_DIR$
     source devel/setup.bash
     roslaunch voxel_map_plus mapping_velodyne.launch
 ```
-
 Step D: Play rosbag.
