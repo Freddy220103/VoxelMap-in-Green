@@ -2,7 +2,7 @@
 
 ## Voxelmap++: Mergeable Voxel Mapping Method for Online LiDAR(-inertial) Odometry in _____
 ### Project Developers:
-[Alfredo Gómez Mendoza](https://github.com/Freddy220103)，Dr. Héctor Cervantes Rodríguez
+[Alfredo Gómez Mendoza](https://github.com/Freddy220103)，[Dr. Héctor Cervantes Rodríguez](https://github.com/Hector387615)
 ### Original VoxelMap++ Developers:
 [Yuan You 游远](https://github.com/SunnysTaste)， Yifei Yuan 袁翼飞
 
