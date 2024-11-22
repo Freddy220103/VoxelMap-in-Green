@@ -26,7 +26,6 @@ We use **VoxelMapPlus** which is an expension with some new features about Voxel
 Videos are available in youtube:
 <div align="center">
     <a href="https://www.bilibili.com/video/BV16h4y1r7Cm/" target="_blank">
-    <img src="pics/video_cover.png" width=100% />
 </div>
 
 
