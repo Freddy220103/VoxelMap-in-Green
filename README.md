@@ -25,7 +25,7 @@ We use **VoxelMapPlus** which is an expension with some new features about Voxel
 ### VoxelMap++ in --- demonstration:
 Videos are available in youtube:
 <div align="center">
-    <a href="https://www.bilibili.com/video/BV16h4y1r7Cm/" target="_blank">
+    <a href="[https://www.bilibili.com/video/BV16h4y1r7Cm/](https://youtu.be/9DlIz0XGdv0)" target="_blank">
 </div>
 
 
